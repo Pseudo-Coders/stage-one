@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1 {
+    width: 95%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+}
+.box2 {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.box3 {
+    width: 60%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+img {
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+}
+.images {
+    margin-top: 1.5em;
+    padding: 0 8%;
+}
+h4 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 10px;
+    margin: 0 5px;
+    margin-top: 0.5em;
+}
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h3 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    padding: 0px 30px;
+}
+.connect {
+    height:100%;
+    width: 100%
+}
+.connectdiv {
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+    width: 100%;
+    margin-top: 0.5em;
+}
+.box4 {
+    height: 30%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.25em;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+}
+.box5 {
+    height: 60%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+}
+.input1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px;
+    margin-top: 6px;
+    gap: 1em;
+}
+input {
+    width: 92%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #ddd;
+    outline: 0;
+    border: 0;
+    text-indent: 0.7em;
+    padding: 3px 0px;
+    font-size: 10px;
+    font-weight: 80;
+}
+.button1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0.25em;
+    color: blue;
+    margin: 0 5px;
+}
+button {
+    background-color: blue;
+    color: white;
+    width: 30%;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 0;
+    cursor: pointer;
+    transition: ease-in .5s;
+}
+button:hover{
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+    transform: translateY(10px);
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h5 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 0 16px;
+    padding: 0 0;
+}
+.input2 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin: 10px 15px;
+}
+.input3 {
+    width: 96%;
+    margin: 10px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p1 {
+    font-size: 9.5px;
+    width: 100%;
+    margin: 10px 0;
+    margin-top: 0.005px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.input4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    width: 90%;
+    margin: 0 14px;
+    margin-top: 8px;
+}
+.p2 {
+    font-size: 9.5px;
+    width: 100%;
+    margin: 10px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.button2 {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 1100px){
+    .box1{
+        width: 50%;
+        height: 45%
+    }
+    input,button {
+        padding:10px 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .box1{
+        width: 80%;
+        height: 40%;
+    }
+    input,button {
+        padding:15px 0;
+    }
+}
